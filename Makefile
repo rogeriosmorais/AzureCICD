@@ -1,5 +1,6 @@
 setup:
 	python3 -m venv ~/.devops
+	export PATH=$HOME/.local/bin:$PATH
 	source ~/.devops/bin/activate
 
 install:
